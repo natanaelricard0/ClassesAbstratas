@@ -29,6 +29,10 @@ public class Program {
 		for (Account acc : list) {
 			acc.deposit(10.0);
 		}
+
+		for (Account acc : list) {
+			System.out.printf("Updated balance for account %d: %.2f%n", acc.getNumber(), acc.getBalance());
+		}
 		
 		
 	}
